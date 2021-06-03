@@ -14,3 +14,21 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/*---Footer*
+footer {
+    padding: 30px;
+    background-color: #75c8ae;
+    }
+    .socialmedia i {
+        text-align: center;
+    }
+
+    
+
+    .socialmedia i {
+        font-size: 50px;
+        margin: 1%;
+        padding: 6%;
+        color: #ffecb4;
+}
