@@ -1,13 +1,17 @@
 # RUTA 40
 
 This a project for the Milestone 2 for the Code Instiute.
-I want to showcase one of my favourites areas of Argentina, Ruta 40 (Route 40). With more than 5,000 kilometers, is the longest route in Argentina. From the Capricorn Tropic to almost the Antarctic Circle, crosses 21 National Parks.
+I want to showcase one of my favourites areas of Argentina, Ruta 40 (Route 40). With more than 5,000 kilometers, is the longest route in Argentina. From the Tropic of Capricorn to almost the Antarctic Circle, it crosses 21 National Parks.
 The website would be useful for any person whom wants to organise a trip.
 
 
 ## UX
 
 The website is aimed for users who wants to travel or they are interested in get a more knowledge of the area.
+
+The colour palette mimicks the Road Traffic signals in Argentina (three stripes in blue-white-blue).
+
+The user would be able to find general and specific information about different areas crossed by Ruta 40. The nature of the road means that the usuers are mostly peple looking for adventures and lots of outdoors recreational activities.
 
 Here you can get the wireframes for the different sections and sizes
 ![Home Desktop](https://github.com/cnavotka/ruta40/blob/master/assets/images/homedesktop1.png) 
