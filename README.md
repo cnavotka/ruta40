@@ -78,7 +78,13 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 The live link can be founded here:
 <https://cnavotka.github.io/ruta40/>
 
-## Bugs
+## Bugs 
+
+Remove it empty brackets and fixed "/" in the notetation that were causing issues with css working properly and found it doing an early test.
+
+![Bug](https://github.com/cnavotka/ruta40/blob/master/assets/images/bug.png)
+![Bug1](https://github.com/cnavotka/ruta40/blob/master/assets/images/bug1.png)
+
 
 ## Credits
 
