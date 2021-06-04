@@ -37,3 +37,25 @@ footer {
       font-family: "Roboto", sans-serif;
 
   }
+
+  /*---Contact*/
+
+  .contact-heading {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #ffecb4;
+    background-color: #75c8ae;
+}
