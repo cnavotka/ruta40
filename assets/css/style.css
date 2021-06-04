@@ -3,11 +3,8 @@
 
 
 
-/*---Heading*
+/*---Heading*/
 
-header {
-
-}
 
 .logo {
     background: url("../images/peritomoreno2.jpeg");
@@ -15,7 +12,7 @@ header {
     background-size: cover;
 }
 
-/*---Footer*
+/*---Footer*/
 footer {
     padding: 30px;
     background-color: #75c8ae;
@@ -32,3 +29,11 @@ footer {
         padding: 6%;
         color: #ffecb4;
 }
+/*---Section*/
+.info {
+      color: #000000;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      font-family: "Roboto", sans-serif;
+
+  }
