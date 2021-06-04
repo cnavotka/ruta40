@@ -76,6 +76,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 3. Once the Master Branch has been selected, the page will automatically refreshed with a detailed ribbon display to indicate the succesful deployment.
 
 The live link can be founded here:
+<https://cnavotka.github.io/ruta40/>
 
 ## Bugs
 
