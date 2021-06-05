@@ -87,6 +87,7 @@ Remove it empty brackets and fixed "/" in the notetation that were causing issue
 
 
 ## Credits
+* I used Google Marker Clustering Tutorial to organise the map in the JavaScript file.
 
 ### Content
 
