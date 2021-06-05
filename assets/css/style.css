@@ -7,7 +7,7 @@
 
 
 .logo {
-    background: url("/assets/images/peritomoreno2.JPG");
+    background: url ("../images/peritomoreno2.JPG");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -41,7 +41,7 @@ footer {
   /*---Contact*/
 
   .contact-heading {
-    font-family: "Oswald", sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
