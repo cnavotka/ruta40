@@ -47,7 +47,6 @@
     </header>
 
     <section>
-   
       <div class="container">
         <div class="row">
           <div class="col-12 info">
@@ -55,10 +54,45 @@
             <p>At more than 5,000km, Ruta Nacional 40 (RN40), also known as “Ruta 40” (Route 40) is the longest route in Argentina. Alongside Route 66 in USA, TransCanada Highway and Australia’s Stuart Highway, it is also one of the longest in the world.</p>
               <p>Going from the Tropic of Capricorn to almost the Antarctic Circle it crosses 21 national parks, 11 provinces and at its highest point it is 5,000 metres above the sea level.
                </p>
-               <div id="map"></div>
+               
           </div>
         </div>
       </div>
+
+      <section id="map-section">
+        <div class="container discover-japan">
+            <div class="row text-center">
+                
+                <div class="col-12 mt-4">
+                    <div class="text-header mt-2 mb-4 pb-2">
+                        <h2 class="hover-info">Map</h2>
+                        <!--Tooltip - code source: https://getbootstrap.com/docs/4.6/components/tooltips/-->
+                        <span class="fas fa-info-circle infoIcon" data-toggle="tooltip" data-placement="top" title="Click on the map markers to change National Park information in the left column"></span>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-6 text-center order-lg-2 order-md-2 order-sm-2">
+                    <div id="map"></div>
+                </div>
+                <div class="col-lg-5 col-md-6 order-lg-1 order-md-1 order-sm-1" id="side-column">
+                    <img class="img-fluid np-img" src="https://i.imgur.com/HLgn2WU.jpg" alt="Bariloche ski resort and lake">
+                    <h4 class="side-heading text-center pt-3 pb-1">Bariloche</h4>
+                    <p class="side-text text-center">
+                      A city located within Nahuel Huapi National Park, with Alpine-style inspired architecture. It is a major tourism centre, with lots of skiing, mountaineering and trekking facilities.
+                    </p>
+                    <p class="side-text text-center">
+                      The chocolate factories here are another popular destination.
+                    </p>
+                    <p class="side-text pb-2 text-center">
+                        <strong>How to get there:</strong> You can get there by plane from Buenos Aires to Bariloche.
+                      </p>
+                </div>
+            </div>
+        </div>
+    </section>
     </section>
 <!--Footer-->
     <footer>
