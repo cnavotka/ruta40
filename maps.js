@@ -234,8 +234,8 @@
       {
         // Estancia La Leona
         coordinates: {
-          lat: -23.58841, 
-          lng: -65.93879
+          lat: -49.80550, 
+          lng: -72.05352
         }, 
         content: '<h5>Estancia La Leona</h5>',
         info: `<img src="https://i.imgur.com/aP91kaK.jpg" class="img-fluid np-img" alt="Estancia La Leona">
