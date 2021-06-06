@@ -159,7 +159,7 @@
         }, 
         content: '<h5>Parque Provincial Ischigualasto</h5>',
         info: `<img src="https://i.imgur.com/jb8hMX0.jpg" class="img-fluid np-img" alt="Ischigualasto">
-        <h4 class="py-3 text-center">Salinas Grandes</h4>
+        <h4 class="py-3 text-center">Parque Provincial Ischigualasto</h4>
         <p>
         The Provincial Park Ischigualasto is also know as Valle de la Luna (Moon Valley) due to its moon like appearance.
         </p>
