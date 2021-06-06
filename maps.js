@@ -49,11 +49,28 @@
         The salt is around 30 centimetres deep.
         </p>
         <p class="pb-2">
-        <strong>How to get there:</strong> From Purmamarca, a small village located in the Quebrada de Humuaca by bus or taxi..
+        <strong>How to get there:</strong> From Purmamarca, a small village located in the Quebrada de Humuaca by bus or taxi.
         </p>`
       },
       
-      
+      {
+        // Cafayate
+        coordinates: {
+          lat: -29.89607, 
+          lng: -67.85554
+        }, 
+        content: '<h5>Cafayate</h5>',
+        info: `<img src="https://i.imgur.com/l2DWcBe.jpg" class="img-fluid np-img" alt="vineyard in Cafayate">
+        <h4 class="py-3 text-center">Cafayate</h4>
+        <p>
+        This area is crossed by Ruta 40 and is well known for the landscape and vineyards. The altitude	 and amount of sunny days per year, plus the soil composition, make the area around the town a paradise for grapes. 
+        </p>
+        <p>
+        </p>
+        <p class="pb-2">
+        <strong>How to get there:</strong> You can get there by a local bus from Salta city, the province capital. If travelling from Buenos Aires you can get a plane to Salta Airport or travel by long distance bus.
+        </p>`
+      },
       
       
       
