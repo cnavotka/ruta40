@@ -80,7 +80,7 @@
         }, 
         content: '<h5>Parque Nacional Los Cardones</h5>',
         info: `<img src="https://i.imgur.com/xgVn9B6.jpg" class="img-fluid np-img" alt="Los Cardones cacti">
-        <h4 class="py-3 text-center">Salinas Grandes</h4>
+        <h4 class="py-3 text-center">Parque Nacional Los Cardones</h4>
         <p>
         This national park is the second largest cactus growing in the world. You can expect to find animals like llamas, armadillos and pumas. Due to extreme temperatures and terrain conditions, it is advisable to use a local guide to explore the area. 
         </p>
@@ -191,8 +191,124 @@
         </p>`
       },
 
+      {
+        // Mendoza
+        coordinates: {
+          lat: -32.86350, 
+          lng: -68.86844
+        }, 
+        content: '<h5>Mendoza</h5>',
+        info: `<img src="https://i.imgur.com/4xGPBn9.jpg" class="img-fluid np-img" alt="Mendoza">
+        <h4 class="py-3 text-center">Mendoza</h4>
+        <p>
+        The city is a stopover for climbers heading to Aconcagua (highest mountain in the Western Hemisphere) and is also known for wine production. Ideal for camping and for wine aficionados and winter sports.
+        </p>
+        <p>
+        Bicycle tours between vineyards are a popular activity.
+        </p>
+        <p class="pb-2">
+        <strong>How to get there:</strong> By flying from Buenos Aires to Mendoza where you can get a local bus or just rent a bicycle.
+        </p>`
+      },
 
+      {
+        // El Chalten
+        coordinates: {
+          lat: -49.33099, 
+          lng: -72.89517
+        }, 
+        content: '<h5>El Chalten</h5>',
+        info: `<img src="https://i.imgur.com/KBtWERD.jpg" class="img-fluid np-img" alt="El Chalten">
+        <h4 class="py-3 text-center">El CHalten</h4>
+        <p>
+        Located within Los Glaciares National Park this is a small town near the base of Cerro Torre and El Chalten spires.
+        </p>
+        <p>
+        Popular for hiking the numerous lakes and glaciers, it is know as Argentina’s Trekking Capital.
+        </p>
+        <p class="pb-2">
+        <strong>How to get there:</strong> By plane from Buenos Aires to El Calafate, connecting by bus from the station.
+        </p>`
+      },
+
+      {
+        // Estancia La Leona
+        coordinates: {
+          lat: -23.58841, 
+          lng: -65.93879
+        }, 
+        content: '<h5>Estancia La Leona</h5>',
+        info: `<img src="https://i.imgur.com/aP91kaK.jpg" class="img-fluid np-img" alt="Estancia La Leona">
+        <h4 class="py-3 text-center">Estancia La Leona</h4>
+        <p>
+        La Leona Ranch, located halfway between El Calafate and El Chalten, is a farm mainly focused on sheep and wool production. 
+        </p>
+        <p>
+        It is renowned as a place where Butch Cassidy and the Sundance Kid hid after robbing a bank in Rio Gallegos.
+        </p>
+        <p class="pb-2">
+        <strong>How to get there:</strong> By flying to Cafayate from Buenos Aires and getting the bus that goes to El Chalten.
+        </p>`
+      },
       
+      {
+        // Parque Nacional Los Glaciares
+        coordinates: {
+          lat: -50.47430, 
+          lng: -73.04661
+        }, 
+        content: '<h5>Parque Nacional Los Glaciares</h5>',
+        info: `<img src="https://i.imgur.com/t3I7X30.jpg"" class="img-fluid np-img" alt="Parque Nacional Los Glaciares">
+        <h4 class="py-3 text-center">Parque Nacional Los Glaciares</h4>
+        <p>
+        A National Park with many glaciers, the most famous being Perito Moreno which is one of the few growing glaciers in the world.
+        </p>
+        <p>
+        Fishing, camping and ice trekking are the main activities in the area.
+        </p>
+        <p class="pb-2">
+        <strong>How to get there:</strong> By plane from Buenos Aires to El Calafate and from there a bus to the National Park.
+        </p>`
+      },
+
+      {
+        // Ushuais
+        coordinates: {
+          lat: -54.71473, 
+          lng: -68.85522
+        }, 
+        content: '<h5>Ushuaia</h5>',
+        info: `<img src="https://i.imgur.com/NMJDGC4.jpg" class="img-fluid np-img" alt="Ushuaia">
+        <h4 class="py-3 text-center">Ushuaia</h4>
+        <p>
+        The southernmost city in the world, and the end of the journey for travellers doing Ruta 40. 
+        </p>
+        <p>
+        Ideally for people who enjoy trakking and mountaineering.
+        </p>
+        <p class="pb-2">
+        <strong>How to get there:</strong> By plane from Buenos Aires to the local airport and get a local bus that connects to the city.
+        </p>`
+      },
+      
+      {
+        // Faro del Fin el Mundo
+        coordinates: {
+          lat: -54.87158, 
+          lng: -68.08402
+        }, 
+        content: '<h5>Faro del Fin del Mundo</h5>',
+        info: `<img src="https://i.imgur.com/OvRjGTy.jpg" class="img-fluid np-img" alt="Faro del Fin del Mundo">
+        <h4 class="py-3 text-center">Faro del Fin del Mundo</h4>
+        <p>
+        Les Eclaireurs Lighthouse (the Scouts in French) which is located 5 nautical miles from Ushuaia, is generally dubbed as “the world’s End lighthouse” and inspired Jules Verne to write the novel “The Lighthouse at the End of the World”.
+        </p>
+        <p></p>
+        <p class="pb-2">
+        <strong>How to get there:</strong> You need to buy a boat ticket from Ushuaia to see the lighthouse.
+        </p>`
+      },
+
     ];
      // Credit code take from https://github.com/FruitbatM/explore-national-parks-of-japan/
     //Loop through markers 
