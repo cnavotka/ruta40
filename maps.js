@@ -72,10 +72,64 @@
         </p>`
       },
       
+      {
+        // Parque Nacional Los Cardones
+        coordinates: {
+          lat: -25.19109, 
+          lng: -66.02992
+        }, 
+        content: '<h5>Parque Nacional Los Cardones</h5>',
+        info: `<img src="https://i.imgur.com/xgVn9B6.jpg" class="img-fluid np-img" alt="Los Cardones cacti">
+        <h4 class="py-3 text-center">Salinas Grandes</h4>
+        <p>
+        This national park is the second largest cactus growing in the world. You can expect to find animals like llamas, armadillos and pumas. Due to extreme temperatures and terrain conditions, it is advisable to use a local guide to explore the area. 
+        </p>
+        <p>
+        The park is crossed by the “Inca Trail”, a perfect straight road of 19 kilometres made by the Inca Empire.
+        </p>
+        <p class="pb-2">
+        <strong>How to get there:</strong> You can get there  by flying to Salta from Buenos Aires and a bus from the bus station in Salta heading to Cachi.
+        </p>`
+      },
       
+      {
+        // Cuesta del Obispo
+        coordinates: {
+          lat: -23.58841, 
+          lng: -65.93879
+        }, 
+        content: '<h5>Cuesta del Obispo</h5>',
+        info: `<img src="https://i.imgur.com/lHU6b8W.jpg" class="img-fluid np-img" alt="Cuesta del Obispo">
+        <h4 class="py-3 text-center">Cuesta del Obispo</h4>
+        <p>
+        A corkscrew road of the 20 kilometres that goes from Salta city to Parque Nacional Los Cardones. It reaches an altitude of 3348 metres above the sea level. 
+        </p>
+        <p>
+        </p>
+        <p class="pb-2">
+        <strong>How to get there:</strong> You can get there flying from Buenos Aires to Salta city and catch the local bus from the bus station in Salta.
+        </p>`
+      },
       
-      
-      
+      {
+        // Cerro de Los Siete Colores
+        coordinates: {
+          lat: -23.74877, 
+          lng: -65.50682
+        }, 
+        content: '<h5>Cerro de Los Siete Colores</h5>',
+        info: `<img src="https://i.imgur.com/uVq4V05.jpg" class="img-fluid np-img" alt="Cerro de los Siete Colores">
+        <h4 class="py-3 text-center">Cerro de Los Siete Colores</h4>
+        <p>
+        The Seven Colours Hill located besides Purmamarca village is a stunning geological formation more than seventy five millions old.
+        </p>
+        <p>
+        The area is ideal for the inexperienced trekker.
+        </p>
+        <p class="pb-2">
+        <strong>How to get there:</strong> You can get there by flying from Buenos Aires to Jujuy, capitol of the province and getting a bus from the main station.
+        </p>`
+      },
       
     ];
      // Credit code take from https://github.com/FruitbatM/explore-national-parks-of-japan/
