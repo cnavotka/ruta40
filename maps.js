@@ -1,61 +1,112 @@
-
+// Initialize map centerd at Bariloche
   
-  // Initalize map centered in Bariloche
   function initMap() {
-    const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 3,
-      center: { lat: -41.12015054243244, lng: -71.30249462122084 },
-    });
+    const options = {
+      center: { 
+        lat: -41.12015054243244, 
+        lng: -71.30249462122084
+      },
+      zoom: 4
+    };
     
-    const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    // Add some markers to the map.
-    
-    const markers = locations.map((location, i) => {
-      return new google.maps.Marker({
-        position: location,
-        label: labels[i % labels.length],
-      });
+    //New map
+    const map = new
+    google.maps.Map(document.getElementById('map'), options);
+  
+    //Create markers
+    // Briloche  
+    const markers = [{
+        coordinates: {
+          lat: -41.12015054243244,
+          lng: -71.30249462122084
+        },
+        content: '<h5>Bariloche</h5>',
+        info: `<img src="https://i.imgur.com/HLgn2WU.jpg" class="img-fluid np-img" alt="Bariloche ski resort"></img>
+        <h4 class="py-3 text-center">Bariloche</h4>
+        <p>
+        A city located within Nahuel Huapi National Park, with Alpine-style inspired architecture. It is a major tourism centre, with lots of skiing, mountaineering and trekking facilities.
+        </p>
+        <p>
+        The chocolate factories here are another popular destination.
+        </p>
+        <p class="pb-2">
+        <strong>How to get there:</strong> by plane from Buenos Aires to Bariloche.
+        </p>`
+      },
+      {
+        // Salinas Grandes
+        coordinates: {
+          lat: -23.58841, 
+          lng: -65.93879
+        }, 
+        content: '<h5>Salinas Grandes</h5>',
+        info: `<img src="https://i.imgur.com/9VF0vXP.jpg" class="img-fluid np-img" alt="Salinas Grandes">
+        <h4 class="py-3 text-center">Salinas Grandes</h4>
+        <p>
+        A salt flat area of 212 square kilometres that looks like a vast white desert. Located at 3450 metres above the sea level the landscape is quite enigmatic. The area was created after volcanic activity dried the sea between 5 and 10 million years BC.
+        </p>
+        <p>
+        The salt is around 30 centimetres deep.
+        </p>
+        <p class="pb-2">
+        <strong>How to get there:</strong> From Purmamarca, a small village located in the Quebrada de Humuaca by bus or taxi..
+        </p>`
+      },
+      
+      
+      
+      
+      
+      
+      
+      
+    ];
+     // Credit code take from https://github.com/FruitbatM/explore-national-parks-of-japan/
+    //Loop through markers 
+    for (var i = 0; i < markers.length; i++) {
+      addMarker(markers[i]);
+    }
+  
+    // Marker function
+    function addMarker(props) {
+      const marker = new google.maps.Marker({
+      position: props.coordinates,
+      map: map,
     });
-    // Add a marker clusterer to manage the markers.
-    new MarkerClusterer(map, markers, {
-      imagePath:
-        "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
-    });
-  }
-  // first location world ends lighthouse
-  const locations = [
+  
+      if(props.content) {
+        const infowindow = new google.maps.InfoWindow ({
+          content:props.content
+        });
 
-    { lat: -54.73363, lng: -63.855522},
-    
-    // ushuaia
-    { lat: -54.71473, lng: -68.85522},
-    
-    // perito moreno
-    { lat: -50.47430, lng: -73.04661 },
-    // la leona
-    { lat: -49.80550, lng: -72.05352 },
-    // el chalten
-    { lat: -49.33099, lng: -72.89517},
-    // bariloche
-    { lat: -41.12015054243244, lng: -71.30249462122084 },
-    // mendoza
-    { lat: -32.86350, lng: -68.86844 },
-    // valle de la luna
-    { lat: -30.17790, lng: -67.86721},
-    // leoncito
-    { lat: -31.79041, lng: -69.34649},
-    // talampaya
-    { lat:-29.89607, lng: -67.85554},
-    // cafayate
-    {lat: -26.07449, lng: -65.97087},
-    // los cardones
-    {lat: -25.19109, lng: -66.02992},
-    // purmamarca
-    {lat: -23.74877, lng: -65.50682},
-    // salinas grandes
-    {lat: -23.58841, lng: -65.93879},
-    // cuesta
-    {lat: -25.18712, lng: -65.84746},
   
-];
+        // Open info window when clicked on the marker
+        google.maps.event.addListener(marker, 'click', function() {
+          if(!marker.open) {
+            infowindow.open(map, marker);
+            marker.open = true;
+          }
+
+          // Close info window when clicked on the marker
+          else {
+            infowindow.close();
+            marker.open = false;
+          }
+
+          // Close info window when clicked anywhere on the map and the info window was opened
+          google.maps.event.addListener(map, 'click', function() {
+            infowindow.close();
+            marker.open = false;
+        });
+      });
   
+        // Info shows in the side column when the marker is clicked
+        google.maps.event.addListener(marker, 'click', (function(i) {
+  
+          return function() {
+            document.getElementById('side-column').innerHTML = markers[i].info;
+          };
+        })(i));
+      }
+    }
+  }
