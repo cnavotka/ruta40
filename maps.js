@@ -30,7 +30,7 @@
         The chocolate factories here are another popular destination.
         </p>
         <p class="pb-2">
-        <strong>How to get there:</strong> by plane from Buenos Aires to Bariloche.
+        <strong>How to get there:</strong> By plane from Buenos Aires to Bariloche.
         </p>`
       },
       {
@@ -68,7 +68,7 @@
         <p>
         </p>
         <p class="pb-2">
-        <strong>How to get there:</strong> You can get there by a local bus from Salta city, the province capital. If travelling from Buenos Aires you can get a plane to Salta Airport or travel by long distance bus.
+        <strong>How to get there:</strong> By a local bus from Salta city, the province capital. If travelling from Buenos Aires you can get a plane to Salta Airport or travel by long distance bus.
         </p>`
       },
       
@@ -88,7 +88,7 @@
         The park is crossed by the “Inca Trail”, a perfect straight road of 19 kilometres made by the Inca Empire.
         </p>
         <p class="pb-2">
-        <strong>How to get there:</strong> You can get there  by flying to Salta from Buenos Aires and a bus from the bus station in Salta heading to Cachi.
+        <strong>How to get there:</strong> By flying to Salta from Buenos Aires and a bus from the bus station in Salta heading to Cachi.
         </p>`
       },
       
@@ -107,7 +107,7 @@
         <p>
         </p>
         <p class="pb-2">
-        <strong>How to get there:</strong> You can get there flying from Buenos Aires to Salta city and catch the local bus from the bus station in Salta.
+        <strong>How to get there:</strong> Flying from Buenos Aires to Salta city and catch the local bus from the bus station in Salta.
         </p>`
       },
       
@@ -127,9 +127,71 @@
         The area is ideal for the inexperienced trekker.
         </p>
         <p class="pb-2">
-        <strong>How to get there:</strong> You can get there by flying from Buenos Aires to Jujuy, capitol of the province and getting a bus from the main station.
+        <strong>How to get there:</strong> By flying from Buenos Aires to Jujuy, capitol of the province and getting a bus from the main station.
         </p>`
       },
+
+      {
+        // Parque Nacional Talampaya
+        coordinates: {
+          lat: -29.89607, 
+          lng: -67.85554
+        }, 
+        content: '<h5>Parque Nacional Talampaya</h5>',
+        info: `<img src="https://i.imgur.com/ODwODqn.jpg" class="img-fluid np-img" alt="Talampaya">
+        <h4 class="py-3 text-center">Talampaya</h4>
+        <p>
+        This national park is an UNESCO World Heritage site and is famous for its red landscape. The rocky walls rise up to 80 metres.
+        </p>
+        <p>
+        Palaeontology is important in the area with dinosaurs footprints and fossils.
+        </p>
+        <p class="pb-2">
+        <strong>How to get there:</strong> By flying from Buenos Aires to La Rioja and a bus from there to the park that crosses Villa Union, the closest town.
+        </p>`
+      },
+      
+      {
+        // Parque Provincial Ischigualasto
+        coordinates: {
+          lat: -30.17790, 
+          lng: -67.86721
+        }, 
+        content: '<h5>Parque Provincial Ischigualasto</h5>',
+        info: `<img src="https://i.imgur.com/jb8hMX0.jpg" class="img-fluid np-img" alt="Ischigualasto">
+        <h4 class="py-3 text-center">Salinas Grandes</h4>
+        <p>
+        The Provincial Park Ischigualasto is also know as Valle de la Luna (Moon Valley) due to its moon like appearance.
+        </p>
+        <p>
+        It is a rich fossil area, with strong winds that sculpted the rocks giving the landscape an unusual shape. 
+        </p>
+        <p class="pb-2">
+        <strong>How to get there:</strong> By flying from Buenos Aires to San Juan. From the bus terminal there, you can get a connection to El Jachal, the closest village.
+
+        </p>`
+      },
+
+      {
+        // Parque Nacional El Leoncito
+        coordinates: {
+          lat: -31.79041, 
+          lng: -69.34649
+        }, 
+        content: '<h5>Parque Nacional El Leoncito</h5>',
+        info: `<img src="https://i.imgur.com/0bgBJCr.jpg" class="img-fluid np-img" alt="PN El Leoncito">
+        <h4 class="py-3 text-center">Parque Nacional El Leoncito</h4>
+        <p>
+        El Leoncito National Park is surrounded by the Big Six (six mountains 6,000 metres above sea level). The dry weather guarantees at least 300 days of clear skies and because of this two astronomical observatories are located there.
+        </p>
+        <p>
+        </p>
+        <p class="pb-2">
+        <strong>How to get there:</strong> By flying from Buenos Aires to San Juan. From the bus station you can get a connection to El Barreal, the closest town.
+        </p>`
+      },
+
+
       
     ];
      // Credit code take from https://github.com/FruitbatM/explore-national-parks-of-japan/
