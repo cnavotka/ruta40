@@ -11,6 +11,10 @@ The website is aimed for users who wants to travel or they are interested in get
 
 The colour palette mimicks the Road Traffic signals in Argentina (three stripes in blue-white-blue).
 
+Here there is an example:
+
+![Ruta 40 road signal](https://github.com/cnavotka/ruta40/blob/master/assets/images/ruta.png)
+
 The user would be able to find general and specific information about different areas crossed by Ruta 40. The nature of the road means that the usuers are mostly peple looking for adventures and lots of outdoors recreational activities.
 
 Here you can get the wireframes for the different sections and sizes
