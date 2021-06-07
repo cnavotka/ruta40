@@ -17,6 +17,7 @@
 footer {
     padding: 30px;
     background-color: #60abff;
+
     }
     .socialmedia i {
         text-align: center;
@@ -117,3 +118,4 @@ button[type="submit"] {
   width: 100%;
   /* The width is the width of the web page */
 }
+
