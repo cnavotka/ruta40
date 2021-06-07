@@ -87,7 +87,7 @@ The technologies used are:
 
 ![HTML Validator](https://github.com/cnavotka/ruta40/blob/master/assets/images/htmlvalidator.png)
 
-* Passed CSS Validator without errors (note that the two that are in the screenshot belongs to Bootstrap):
+* Passed CSS Validator without errors (note that the two errors in the screenshot belongs to Bootstrap):
 
 ![Css Validator](https://github.com/cnavotka/ruta40/blob/master/assets/images/cssvalidator.png)
 
@@ -117,7 +117,7 @@ Removed empty brackets and fixed "/" in the notation that were causing issues wi
 
 ## Credits
 * I used Google Marker Clustering Tutorial to organise the map in the JavaScript file.
-* I used code from ![GitHub](https://github.com/FruitbatM) for code in JavaScript file and index.html file.
+* I used code from ![GitHub](https://github.com/FruitbatM/explore-national-parks-of-japan)) for code in JavaScript file and index.html file.
 * CSS tricks for the hover effect in the Gallery
 
 ### Content
