@@ -9,7 +9,7 @@ The website would be useful for any person whom wants to organise a trip.
 
 The website is aimed for users who wants to travel or they are interested in get a more knowledge of the area.
 
-The colour palette mimicks the Road Traffic signals in Argentina (three stripes in blue-white-blue).
+The colour palette mimicks the Road Traffic signals in Argentina (three stripes in blue-white-blue and black).
 
 Here there is an example:
 
