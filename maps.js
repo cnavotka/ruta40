@@ -14,7 +14,7 @@
     google.maps.Map(document.getElementById('map'), options);
   
     //Create markers
-    // Briloche  
+    // Bariloche  
     const markers = [{
         coordinates: {
           lat: -41.12015054243244,
@@ -272,7 +272,7 @@
       },
 
       {
-        // Ushuais
+        // Ushuaia
         coordinates: {
           lat: -54.71473, 
           lng: -68.85522
