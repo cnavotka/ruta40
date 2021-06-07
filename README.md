@@ -81,6 +81,18 @@ The technologies used are:
 
 ![JS Hint](https://github.com/cnavotka/ruta40/blob/master/assets/images/jshint%20validator.png)
 
+* Passed HTML Validator without errors:
+
+![HTML Validator](https://github.com/cnavotka/ruta40/blob/master/assets/images/htmlvalidator.png)
+
+* Passed CSS Validator without errors (note that the two that are in the screenshot belongs to Bootstrap):
+
+![Css Validator](https://github.com/cnavotka/ruta40/blob/master/assets/images/cssvalidator.png)
+
+* Lighthouse Performance:
+
+![Lighthouse Performance](https://github.com/cnavotka/ruta40/blob/master/assets/images/lighthouseperformance.png) 
+
 
 
 ## Deployment
