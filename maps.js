@@ -138,7 +138,7 @@
           lng: -67.85554
         }, 
         content: '<h5>Parque Nacional Talampaya</h5>',
-        info: `<img src="https://i.imgur.com/ODwODqn.jpg" class="img-fluid np-img" alt="Talampaya">
+        info: `<img src="https://i.imgur.com/UvXSMx5.jpg" class="img-fluid np-img" alt="Talampaya">
         <h4 class="py-3 text-center">Talampaya</h4>
         <p>
         This national park is an UNESCO World Heritage site and is famous for its red landscape. The rocky walls rise up to 80 metres.
