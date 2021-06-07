@@ -16,7 +16,7 @@
 
 footer {
     padding: 30px;
-    background-color: #75c8ae;
+    background-color: #60abff;
     }
     .socialmedia i {
         text-align: center;
@@ -28,7 +28,7 @@ footer {
         font-size: 50px;
         margin: 1%;
         padding: 6%;
-        color: #ffecb4;
+        color: #000000;
 }
 /*---Section*/
 .info {
