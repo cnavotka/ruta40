@@ -77,6 +77,11 @@ The technologies used are:
 * JQuery
 
 ## Testing
+* Passed JS Hint Validator without errors:
+
+![JS Hint](https://github.com/cnavotka/ruta40/blob/master/assets/images/jshint%20validator.png)
+
+
 
 ## Deployment
 
