@@ -116,8 +116,12 @@ Removed empty brackets and fixed "/" in the notation that were causing issues wi
 
 ### Feedback
 * As per feedback received in the Assesment (LO1 Design, develop and implement a dinamyc Front End web application using HTML, CSS and JavaScript 1.1) I fixed the highlighted link "HOME".
+
 Screenshot with the error:
 ![Navbar](https://github.com/cnavotka/ruta40/blob/master/assets/images/navbarerror.png)
+I removed the class "active" of the link Home in the navbar index.html file to fix issue.
+Here you can see the the Home link isn't anymore hihlighted in the Contact page:
+![Navbar1](https://github.com/cnavotka/ruta40/blob/master/assets/images/navfixed.png)
 
 
 
