@@ -7,6 +7,13 @@ The website would be useful for any person organising a trip.
 
 ![Responsive image](https://github.com/cnavotka/ruta40/blob/master/assets/images/responsive.png)
 
+## Project Resubmission
+This is a resubmission, the failed points are:
+* LO 1 1.1 Navigation link "Home" is highlighted in all pages.
+* LO 1 1.2 Upon form submission, no feedback is shown to the end user.
+* LO 3 3.4 Test section can be improved and enhanced significantly in README.
+* LO 5 5.1 Design (User Stories), Development (Commits), Testing and deployment documentation all present in ReadMe file, however details are sparse for the sections.
+
 
 ## UX
 
