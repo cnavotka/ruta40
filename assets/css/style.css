@@ -56,9 +56,17 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: #000000;
     background-color: #60abff;
+}
+
+button[type="close"] {
+      margin-top: 15px;
+      margin-bottom: 20px;
+      color: #000000;
+      background-color: #60abff;
+}
 
     /*---Gallery*/
-}
+
 .row {
     display: flex;
     flex-wrap: wrap;
