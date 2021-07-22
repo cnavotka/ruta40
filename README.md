@@ -121,6 +121,10 @@ Removed empty brackets and fixed "/" in the notation that were causing issues wi
 ![Bug](https://github.com/cnavotka/ruta40/blob/master/assets/images/bug.png)
 ![Bug1](https://github.com/cnavotka/ruta40/blob/master/assets/images/bug1.png)
 
+Error found in the contact.html file while doing a test. The line that was causing the error was deleted.
+Screenshot with the error:
+![Bug3](https://github.com/cnavotka/ruta40/blob/master/assets/images/error-contact-file.png)
+
 ### Feedback
 * As per feedback received in the Assesment (LO1 Design, develop and implement a dinamyc Front End web application using HTML, CSS and JavaScript 1.1) I fixed the highlighted link "HOME".
 
