@@ -125,6 +125,11 @@ Error found in the contact.html file while doing a test. The line that was causi
 Screenshot with the error:
 ![Bug3](https://github.com/cnavotka/ruta40/blob/master/assets/images/error-contact-file.png)
 
+Error found in Console after click the button "Submit" in the Contact Form:
+![Bug4](https://github.com/cnavotka/ruta40/blob/master/assets/images/error-emailjs-user.png)
+I fixed remeving this line from the script of the emailjs code in the header of the Contact HTML file:
+![Bug5](https://github.com/cnavotka/ruta40/blob/master/assets/images/line-error-removed.png)
+
 ### Feedback
 * As per feedback received in the Assesment (LO1 Design, develop and implement a dinamyc Front End web application using HTML, CSS and JavaScript 1.1) I fixed the highlighted link "HOME".
 
