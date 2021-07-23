@@ -1,12 +1,16 @@
-const open = document.getElementById('open');
-const modal_container = document.getElementById('modal_container');
-const close = document.getElementById('close');
-
-open.addEventListener('click', () => {
-    modal_container.classList.add('show');
-});
-
-close.addEventListener('click', () => {
-    modal_container.classList.remove('show');
-});
-
+function sendMail(contactForm) {
+    emailjs.send("gmail", "rosie", {
+        "from_name": contactForm.name.value,
+        "from_email": contactForm.emailaddress.value,
+        "project_request": contactForm.projectsummary.value
+    })
+    .then(
+        function(response) {
+            console.log("SUCCESS", response);
+        },
+        function(error) {
+            console.log("FAILED", error);
+        }
+    );
+    return false;  // To block from loading a new page
+}

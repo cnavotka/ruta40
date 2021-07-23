@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Ruta 40</title>
 
-    
+
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
 </script>
@@ -66,23 +66,14 @@
             <div class="col">
                 <h2 class="contact-heading text-center">Contact us to start your adventure!</h2>
                  <div class="center-form">
-                    <form>
+                    <form onsubmit="return sendMail(this)">
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
                         <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
                         <textarea rows="5" name="comment" id="comment" class="form-control" placeholder="Comment" required></textarea>
                         <div class="form-row text-center">
                             <div class="col">
                                 <button id="open" type="submit" class="btn btn-secondary">Submit</button>
-                                <div class="modal_container" id="modal_container">
-                                  <div class="modal">
-                                    <h1>Thank you for contact us!</h1>
-                                    <p>We will be in touch with you soon to help you with the new adventure</p>
-                                    <button id="close" type="close" class="btn btn-secondary">Click to close</button>
-
-
-                                  </div>
-
-                                </div>
+                              </div>
                             </div>
                         </div>
                     </form>
