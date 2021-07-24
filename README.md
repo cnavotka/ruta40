@@ -115,19 +115,41 @@ The technologies used are:
 ## Testing
 * Passed JS Hint Validator without errors in the Modal and Maps file:
 
+Modal file:
+
 ![JS Hint Modal](https://github.com/cnavotka/ruta40/blob/master/assets/images/jshint-modal.png)
+
+Maps file:
+
 ![JS Hint Maps](https://github.com/cnavotka/ruta40/blob/master/assets/images/jshint-maps.png)
 
 * Passed HTML Checker without errors in the Index, Gallery and Contact file:
 
+Validator Index file:
+
 ![HTML Validator Index](https://github.com/cnavotka/ruta40/blob/master/assets/images/html-checker-index.png)
+
+Validator Gallery file:
+
 ![HTML Validator Gallery](https://github.com/cnavotka/ruta40/blob/master/assets/images/html-checker-gallery.png)
+
+Validator Contact file:
+
 ![HTML Validator Contact](https://github.com/cnavotka/ruta40/blob/master/assets/images/html-checker-contact.png)
+
 
 * Passed CSS Validator without errors in the Index, Gallery and COntact file (note that the two errors in the screenshot belongs to Bootstrap):
 
+Index file:
+
 ![Css Validator Index](https://github.com/cnavotka/ruta40/blob/master/assets/images/css-checker-index.png)
+
+Gallery file:
+
 ![Css Validator Gallery](https://github.com/cnavotka/ruta40/blob/master/assets/images/css-checker-gallery.png)
+
+Contact file:
+
 ![Css Validator Contact](https://github.com/cnavotka/ruta40/blob/master/assets/images/css-checker-contact.png)
 
 * Lighthouse Performance:
@@ -135,27 +157,53 @@ The technologies used are:
 ![Lighthouse Performance](https://github.com/cnavotka/ruta40/blob/master/assets/images/lighthouse-perfomance.png) 
 
 * The project was tested in iPhone, iPad and Macbook. You can see the screenshots here:
+
+iPhone
+
 ![iPhone screen](https://github.com/cnavotka/ruta40/blob/master/assets/images/test-iphone-screenshot.png)
+
+iPad
+
 ![iPad screen](https://github.com/cnavotka/ruta40/blob/master/assets/images/test-ipad-screenshot.png)
+
+Macbook
+
 ![Macbook screen](https://github.com/cnavotka/ruta40/blob/master/assets/images/test-macbook-screenshot.png)
 
 * All the social media links are working and opens in a new tab, as you can see here:
+
+Facebook
+
 ![Facebook link](https://github.com/cnavotka/ruta40/blob/master/assets/images/test-facebook-screenshot.png)
+
+Twitter
+
 ![Twitter link](https://github.com/cnavotka/ruta40/blob/master/assets/images/test-twitter-screenshot.png)
+
+Instagram
+
 ![Instagram link](https://github.com/cnavotka/ruta40/blob/master/assets/images/test-instagram-screenshot.png)
 
 * Netwotk working without issues, getting status 200
+
 ![Network](https://github.com/cnavotka/ruta40/blob/master/assets/images/network-test-console.png)
 
 The error that appears is out of my reach to fix it, as you can see in the screenshot the answer I was given by the lead of the Slack Interactive Channel of the Code Institute:
+
 ![Answer to error](https://github.com/cnavotka/ruta40/blob/master/assets/images/error-interest-cohort.png)
 
 * As per feedback received in the Assesment (LO1 Design, develop and implement a dinamyc Front End web application using HTML, CSS and JavaScript 1.2) I implemented a Modal that appears after the submission of the contact form:
 
+Modal in Macbook
+
 ![Modal in Mackbook](https://github.com/cnavotka/ruta40/blob/master/assets/images/modal-test-laptop.png)
+
+Modal in iPhone
+
 ![Modal in iPhone](https://github.com/cnavotka/ruta40/blob/master/assets/images/modal-popup-test-iphone.png)
 
 * Test of the email I receive every time an user submit the contact form:
+
 ![Email](https://github.com/cnavotka/ruta40/blob/master/assets/images/email-test-contact-form.png)
 
 * As per feedback received in the Assesment (LO3 Test an interactive front end web application through the development, implementation and deployment stages 3.4), the Test section is significantly improved.
@@ -197,8 +245,10 @@ Error found using HTML Checker in the Contact file. I fixed adding the relevants
 * As per feedback received in the Assesment (LO1 Design, develop and implement a dinamyc Front End web application using HTML, CSS and JavaScript 1.1) I fixed the highlighted link "HOME".
 
 Screenshot with the error:
+
 ![Navbar](https://github.com/cnavotka/ruta40/blob/master/assets/images/navbarerror.png)
 I removed the class "active" of the link Home in the navbar index.html file to fix issue.
+
 Here you can see the the Home link isn't anymore hihlighted in the Contact page:
 ![Navbar1](https://github.com/cnavotka/ruta40/blob/master/assets/images/navfixed.png)
 
