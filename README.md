@@ -120,12 +120,18 @@ The technologies used are:
 * Netwotk working without issues, getting status 200
 ![Network](https://github.com/cnavotka/ruta40/blob/master/assets/images/network-test-console.png)
 
+The error that appears is out of my reach to fix it, as you can see in the screenshot the answer I was given by the lead of the Slack Interactive Channel of the Code Institute:
+![Answer to error](https://github.com/cnavotka/ruta40/blob/master/assets/images/error-interest-cohort.png)
 
+* As per feedback received in the Assesment (LO1 Design, develop and implement a dinamyc Front End web application using HTML, CSS and JavaScript 1.2) I implemented a Modal that appears after the submission of the contact form:
 
+![Modal in Mackbook](https://github.com/cnavotka/ruta40/blob/master/assets/images/modal-test-laptop.png)
+![Modal in iPhone](https://github.com/cnavotka/ruta40/blob/master/assets/images/modal-popup-test-iphone.png)
 
+* Test of the email I receive every time an user submit the contact form:
+![Email](https://github.com/cnavotka/ruta40/blob/master/assets/images/email-test-contact-form.png)
 
-
-
+* As per feedback received in the Assesment (LO3 Test an interactive front end web application through the development, implementation and deployment stages 3.4), the Test section is significantly improved.
 
 ## Deployment
 
@@ -161,6 +167,12 @@ Screenshot with the error:
 I removed the class "active" of the link Home in the navbar index.html file to fix issue.
 Here you can see the the Home link isn't anymore hihlighted in the Contact page:
 ![Navbar1](https://github.com/cnavotka/ruta40/blob/master/assets/images/navfixed.png)
+
+* As per feedback received in the Assesment (LO1 Design, develop and implement a dinamyc Front End web application using HTML, CSS and JavaScript 1.2), you can see in the test section that I added a modal when the contact form is submitted.
+
+* As per feedback received in the Assesment (LO3 Test an interactive front end web application through the development, implementation and deployment stages 3.4), the Test section is significantly improved.
+
+* As per feedback received in the Assesment (LO 5 5.1 Design (User Stories), Development (Commits), Testing and deployment documentation all present in ReadMe file, however details are sparse for the sections. As you can see the User stories is expanded, the Commits made since the 14/07/2021 are more detailed and the Test section was massively improved.
 
 
 
