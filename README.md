@@ -28,12 +28,20 @@ The website is aimed at users who want to travel or they are interested in findi
 * As a site visitor, I want to use map to find exciting national parks in Argentina and based on the provided information decide what places to visit and I want to get information how to get to the national parks.
 * Having the location and one general picture can help me to decide if I am interested in certain spot and is useful for making travel itineraries.
 
+### Colours
+
 The colour palette mimicks the Road Traffic signals in Argentina (three stripes in blue, white and black).
 Based on that, I tried to keep the colour usage and design in a minimalistic way, to avoid distractions for the user. Thinking about the website as the Road signal, something basic but clear to get the information required in a fast way.
 
 Here there is an example:
 
 ![Ruta 40 road signal](https://github.com/cnavotka/ruta40/blob/master/assets/images/ruta.png)
+
+### Scope
+* Create a fully responsive single page mobile first website.
+* Use of APIs to show relevant information to the user.
+* Interactive features that allow the user to engage and find needed information.
+* An easy-to-use contact form that sends emails to the owner using EmailJS.
 
 The user would be able to find general and specific information about different areas crossed by Ruta 40. The nature of the road means that the users are mostly people looking for adventures and lots of outdoors recreational activities.
 
@@ -68,22 +76,22 @@ Here you can get the wireframes for the different sections and sizes
 
 ### Home
 #### Navigation Bar
-* Featured in all three pages, the full responsive navigation bar includes links to the Home Page, Gallery and Contact page and it is identical in each page to allow easy navigation.
+* Featured in all three pages, the full responsive navigation bar includes links to the Home Page, Gallery and Contact page and it is identical in each page to allow easy navigation. In smaller screens, the Navigation bar is collapsible
 
 #### Hero image
 * A photograph that shows to the user one of the landscapes crossed by Ruta 40.
 
 #### Map and Picture
-* This section includes an exact location in Google Maps with a picture of the area, plus information about the place and how to get there.
+* This section includes an exact location in Google Maps with a picture of the area, plus information about the place and how to get there. This will help the visitor to gain knowledge of the area before visit it.
 
 #### Footer
-* This section includes links to the relevant social media sites connected with Ruta 40.
+* This section includes links to the relevant social media sites connected with Ruta 40. The sites are up to date with all the information from the National Parks Administration.
 
 ### Gallery
 * The Gallery will provide the users with supporting images to motivate them to travel around the Ruta 40. 
 
 ### Contact
-* This page will allow the user to be in touch to clarify any doubt and help it to organise the journey around Ruta 40.
+* This page will allow the user to be in touch to clarify any doubt and help it to organise the journey around Ruta 40. Every time a visitor submit the contact form, I'll get an email. The user would see a Modal that let them know the contact was succesful.
 
 ### Future Implementations
 
