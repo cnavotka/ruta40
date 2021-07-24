@@ -145,6 +145,7 @@ Here you can see the the Home link isn't anymore hihlighted in the Contact page:
 * I used Google Marker Clustering Tutorial to organise the map in the JavaScript file.
 * I used code from ![GitHub](https://github.com/FruitbatM/explore-national-parks-of-japan)) for code in JavaScript file and index.html file.
 * CSS tricks for the hover effect in the Gallery
+* Modal in the Contact Form from W3 Schools
 
 ### Content
 
