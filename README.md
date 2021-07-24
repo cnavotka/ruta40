@@ -86,21 +86,44 @@ The technologies used are:
 * JQuery
 
 ## Testing
-* Passed JS Hint Validator without errors:
+* Passed JS Hint Validator without errors in the Modal and Maps file:
 
-![JS Hint](https://github.com/cnavotka/ruta40/blob/master/assets/images/jshint%20validator.png)
+![JS Hint Modal](https://github.com/cnavotka/ruta40/blob/master/assets/images/jshint-modal.png)
+![JS Hint Maps](https://github.com/cnavotka/ruta40/blob/master/assets/images/jshint-maps.png)
 
-* Passed HTML Validator without errors:
+* Passed HTML Checker without errors in the Index, Gallery and Contact file:
 
-![HTML Validator](https://github.com/cnavotka/ruta40/blob/master/assets/images/htmlvalidator.png)
+![HTML Validator Index](https://github.com/cnavotka/ruta40/blob/master/assets/images/html-checker-index.png)
+![HTML Validator Gallery](https://github.com/cnavotka/ruta40/blob/master/assets/images/html-checker-gallery.png)
+![HTML Validator Contact](https://github.com/cnavotka/ruta40/blob/master/assets/images/html-checker-contact.png)
 
-* Passed CSS Validator without errors (note that the two errors in the screenshot belongs to Bootstrap):
+* Passed CSS Validator without errors in the Index, Gallery and COntact file (note that the two errors in the screenshot belongs to Bootstrap):
 
-![Css Validator](https://github.com/cnavotka/ruta40/blob/master/assets/images/cssvalidator.png)
+![Css Validator Index](https://github.com/cnavotka/ruta40/blob/master/assets/images/css-checker-index.png)
+![Css Validator Gallery](https://github.com/cnavotka/ruta40/blob/master/assets/images/css-checker-gallery.png)
+![Css Validator Contact](https://github.com/cnavotka/ruta40/blob/master/assets/images/css-checker-contact.png)
 
 * Lighthouse Performance:
 
-![Lighthouse Performance](https://github.com/cnavotka/ruta40/blob/master/assets/images/lighthouseperformance.png) 
+![Lighthouse Performance](https://github.com/cnavotka/ruta40/blob/master/assets/images/lighthouse-perfomance.png) 
+
+* The project was tested in iPhone, iPad and Macbook. You can see the screenshots here:
+![iPhone screen](https://github.com/cnavotka/ruta40/blob/master/assets/images/test-iphone-screenshot.png)
+![iPad screen](https://github.com/cnavotka/ruta40/blob/master/assets/images/test-ipad-screenshot.png)
+![Macbook screen](https://github.com/cnavotka/ruta40/blob/master/assets/images/test-macbook-screenshot.png)
+
+* All the social media links are working and opens in a new tab, as you can see here:
+![Facebook link](https://github.com/cnavotka/ruta40/blob/master/assets/images/test-facebook-screenshot.png)
+![Twitter link](https://github.com/cnavotka/ruta40/blob/master/assets/images/test-twitter-screenshot.png)
+![Instagram link](https://github.com/cnavotka/ruta40/blob/master/assets/images/test-instagram-screenshot.png)
+
+* Netwotk working without issues, getting status 200
+![Network](https://github.com/cnavotka/ruta40/blob/master/assets/images/network-test-console.png)
+
+
+
+
+
 
 
 
