@@ -45,22 +45,41 @@ Here there is an example:
 
 The user would be able to find general and specific information about different areas crossed by Ruta 40. The nature of the road means that the users are mostly people looking for adventures and lots of outdoors recreational activities.
 
-Here you can get the wireframes for the different sections and sizes
+Here you can get the wireframes for the different sections and sizes:
+
+Home Desktop
+
 ![Home Desktop](https://github.com/cnavotka/ruta40/blob/master/assets/images/homedesktop1.png) 
+
+Gallery Desktop
 
 ![Gallery Desktop](https://github.com/cnavotka/ruta40/blob/master/assets/images/gallerydesktop.png) 
 
+Contact Desktop
+
 ![Contact Desktop](https://github.com/cnavotka/ruta40/blob/master/assets/images/contactdesktop.png)
+
+Home iPad
 
 ![Home iPad](https://github.com/cnavotka/ruta40/blob/master/assets/images/homeipad.png)
 
+Gallery iPad
+
 ![Gallery iPad](https://github.com/cnavotka/ruta40/blob/master/assets/images/galleryipad.png)
+
+Contact iPad
 
 ![Contact iPad](https://github.com/cnavotka/ruta40/blob/master/assets/images/contactipad.png)
 
+Home iPhone
+
 ![Home iPhone](https://github.com/cnavotka/ruta40/blob/master/assets/images/homeiphone.png)
 
+Gallery iPhone
+
 ![Galley iPhone](https://github.com/cnavotka/ruta40/blob/master/assets/images/iphonegallery.png)
+
+Contact iPhone
 
 ![Contact iPhone](https://github.com/cnavotka/ruta40/blob/master/assets/images/contactiphone.png)
 
