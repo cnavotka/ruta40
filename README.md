@@ -85,6 +85,13 @@ Here you can get the wireframes for the different sections and sizes
 ### Contact
 * This page will allow the user to be in touch to clarify any doubt and help it to organise the journey around Ruta 40.
 
+### Future Implementations
+
+* Newsletter subscription
+* Add a blog section that the users can leave comments or experiences
+* Create 404 error page
+* Expand content with places to stay and things to do and give users the option to rate them
+
 ## Technologies used
 The technologies used are: 
 * Gitpod 
@@ -192,7 +199,7 @@ Here you can see the the Home link isn't anymore hihlighted in the Contact page:
 * I used Google Marker Clustering Tutorial to organise the map in the JavaScript file.
 * I used code from ![GitHub](https://github.com/FruitbatM/explore-national-parks-of-japan)) for code in JavaScript file and index.html file.
 * CSS tricks for the hover effect in the Gallery
-* Modal in the Contact Form from W3 Schools
+* Modal in the Contact Form from W3 Schools and Walkthrough Project form the Code Institute
 
 ### Content
 
