@@ -211,12 +211,48 @@ Modal in iPhone
 ## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
+
 1. In the GitHub repository, navigate to the settings tab
+
 2. From the source section drop-down menu, select the Master Branch
+
 3. Once the Master Branch has been selected, the page will automatically refreshed with a detailed ribbon display to indicate the succesful deployment.
 
 The live link can be founded here:
 <https://cnavotka.github.io/ruta40/>
+
+### Forking the Repository
+* To fork the repository please follow the below steps:
+
+2. Go to the main page of Ruta 40 repository.
+
+3. At the top right corner of the page click on the "Fork" button.
+
+4. You have forked the repository.
+
+### Local Deployment
+
+To create a local copy of the repository please follow the below steps:
+
+1. Login into GitHub with your account.
+
+2. Go to the project repository.
+
+3. Click on the "Code" button (located next to the green "Gitpod" button).
+
+4. From the dropdown menu copy the HTTPS URL.
+
+5. In your local IDE open the terminal.
+
+6. Change your working directory to the location where you want the cloned project saved.
+
+7. Type "git clone" and paste copied URL.
+
+8. git clone //github.com/USERNAME/REPOSITORY
+
+9. Press enter and your repo will be created.
+
+
 
 ## Bugs 
 
