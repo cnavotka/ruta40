@@ -5,25 +5,15 @@ function sendMail(contactForm) {
         "from_email": contactForm.emailaddress.value,
         "comment": contactForm.comment.value
     })
-//Sweetalert2 for pop up modal
+
     .then(
-        function() {
-            Swal.fire ({
-              title: 'Thank you for contact us!',
-              text: 'We will get back to you shortly.',
-              icon: 'success',
-              confirmButtonColor: '#60abff'
-            });
-          },
-          
-          function() {
-            Swal.fire ({
-              title: 'Ooops...',
-              text: 'Something went wrong.',
-              icon: 'error',
-              confirmButtonColor: '#60abff'
-            });
-        }); 
+      function(response) {
+        console.log("SUCCESS", response);
+    },
+    function(error) {
+        console.log("FAILED", error);
+    }
+);
 
     // To clear the form
     document.getElementById('contactForm').request();
