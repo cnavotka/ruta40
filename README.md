@@ -156,19 +156,24 @@ Contact file:
 
 ![Lighthouse Performance](https://github.com/cnavotka/ruta40/blob/master/assets/images/lighthouse-perfomance.png) 
 
-* The project was tested in iPhone, iPad and Macbook. You can see the screenshots here:
+* The project was tested in iPhone, iPad and Macbook. 
+You can see the screenshots here using Responsive Design Checker:
 
 iPhone
 
-![iPhone screen](https://github.com/cnavotka/ruta40/blob/master/assets/images/test-iphone-screenshot.png)
+![iPhone screen](https://github.com/cnavotka/ruta40/blob/master/assets/images/responsive-iphone.png)
 
 iPad
 
-![iPad screen](https://github.com/cnavotka/ruta40/blob/master/assets/images/test-ipad-screenshot.png)
+![iPad screen](https://github.com/cnavotka/ruta40/blob/master/assets/images/responsive-ipad.png)
 
 Macbook
 
-![Macbook screen](https://github.com/cnavotka/ruta40/blob/master/assets/images/test-macbook-screenshot.png)
+![Macbook screen](https://github.com/cnavotka/ruta40/blob/master/assets/images/responsive-macbook.png)
+
+Desktop
+
+![Desktop screen](https://github.com/cnavotka/ruta40/blob/master/assets/images/responsive-desktop.png)
 
 * All the social media links are working and opens in a new tab, as you can see here:
 
