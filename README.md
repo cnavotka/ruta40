@@ -186,6 +186,13 @@ Error found in Console after click the button "Submit" in the Contact Form:
 I fixed remeving this line from the script of the emailjs code in the header of the Contact HTML file:
 ![Bug5](https://github.com/cnavotka/ruta40/blob/master/assets/images/line-error-removed.png)
 
+Error found in the Console after I added Sweetalert2 script. I fixed removing redundant script:
+[Bug6](https://github.com/cnavotka/ruta40/blob/master/assets/images/error-sweetalert-script.png)
+
+Error found using HTML Checker in the Contact file. I fixed adding the relevants div end tags:
+[Bug](https://github.com/cnavotka/ruta40/blob/master/assets/images/html-contact-error.png)
+
+
 ### Feedback
 * As per feedback received in the Assesment (LO1 Design, develop and implement a dinamyc Front End web application using HTML, CSS and JavaScript 1.1) I fixed the highlighted link "HOME".
 
