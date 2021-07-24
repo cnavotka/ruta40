@@ -21,6 +21,11 @@ The website is aimed at users who want to travel or they are interested in findi
 
 * As a user I like to find the information for a selected area easily and fast.
 * The information needs to be clear and short, because that would help to decide if I want to investigate more possible place to visit.
+* As a site visitor, I would like to gain an understanding of the website's purpose from the landing page.
+* I would like to easily navigate through the site and find what I am looking for with an ease.
+* As a site visitor, I would like to find the aesthetics of the website enjoyable and I want to use interactive elements on the website.
+* As a site visitor, I would like to be able to easily find and navigate to the National Parks social media and get in touch if I might have any queries.
+* As a site visitor, I want to use map to find exciting national parks in Argentina and based on the provided information decide what places to visit and I want to get information how to get to the national parks.
 * Having the location and one general picture can help me to decide if I am interested in certain spot and is useful for making travel itineraries.
 
 The colour palette mimicks the Road Traffic signals in Argentina (three stripes in blue, white and black).
@@ -50,6 +55,13 @@ Here you can get the wireframes for the different sections and sizes
 ![Galley iPhone](https://github.com/cnavotka/ruta40/blob/master/assets/images/iphonegallery.png)
 
 ![Contact iPhone](https://github.com/cnavotka/ruta40/blob/master/assets/images/contactiphone.png)
+
+### Project Goals
+
+* To enable easy access to the information needed about to plan the trip.
+* To show the information about the Argentina's national parks to visit around the Ruta 40.
+* To provide the information on how to get there.
+* The content provided is relevant and regularly updated.
 
 
 ## Features
