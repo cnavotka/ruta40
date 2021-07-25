@@ -157,7 +157,7 @@ Validator Contact file:
 ![HTML Validator Contact](https://github.com/cnavotka/ruta40/blob/master/assets/images/html-checker-contact.png)
 
 
-* Passed CSS Validator without errors in the Index, Gallery and COntact file (note that the two errors in the screenshot belongs to Bootstrap):
+* Passed CSS Validator without errors in the Index, Gallery and Contact file (note that the two errors in the screenshot belongs to Bootstrap):
 
 Index file:
 
