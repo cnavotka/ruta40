@@ -295,10 +295,10 @@ I fixed remeving this line from the script of the emailjs code in the header of 
 ![Bug5](https://github.com/cnavotka/ruta40/blob/master/assets/images/line-error-removed.png)
 
 Error found in the Console after I added Sweetalert2 script. I fixed removing redundant script:
-[Bug6](https://github.com/cnavotka/ruta40/blob/master/assets/images/error-sweetalert-script.png)
+![Bug6](https://github.com/cnavotka/ruta40/blob/master/assets/images/error-sweetalert-script.png)
 
 Error found using HTML Checker in the Contact file. I fixed adding the relevants div end tags:
-[Bug](https://github.com/cnavotka/ruta40/blob/master/assets/images/html-contact-error.png)
+![Bug7](https://github.com/cnavotka/ruta40/blob/master/assets/images/html-contact-error.png)
 
 
 ### Feedback
